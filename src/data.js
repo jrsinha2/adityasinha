@@ -53,8 +53,16 @@ export const testimonials = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
+  "Spring Framework",
   "Node",
   "GraphQL",
-  "Material UI",
+  "Confluent Kafka",
+  "Elasticsearch",
+];
+
+export const sections = [
+  // "About",
+  // "Projects",
+  "Skills",
+  // "Testimonials",
 ];
