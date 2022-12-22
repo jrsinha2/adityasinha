@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    :root {
+        --color-text-base: theme(textColor.gray.500);
+        --color-text-inverted: theme(textColor.gray.900);
+        --color-text-muted: theme(textColor.white);
+        --color-bg-base: theme(backgroundColor.gray.800);
+        --color-bg-inverted: theme(backgroundColor.gray.500);
+    }
+}
