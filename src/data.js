@@ -101,11 +101,11 @@ export const experience = [
     "designation": "SEP Software Engineer 2",
     "description": ""
   },
-  {
-    "id": 2,
-    "companyName": "Uber",
-    "city": "Bangalore",
-    "designation": "Software Engineer 2",
-    "description": ""
-  }
+  // {
+  //   "id": 2,
+  //   "companyName": "Uber",
+  //   "city": "Bangalore",
+  //   "designation": "Software Engineer 2",
+  //   "description": ""
+  // }
 ]
