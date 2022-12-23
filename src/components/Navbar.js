@@ -2,6 +2,7 @@ import { ArrowCircleDownIcon, ArrowRightIcon } from "@heroicons/react/solid";
 import React, { useEffect, useState } from "react";
 import avatar from '../images/cat.jpg'
 import '../styles/navbar.css'
+import resume from '../assets/resume.pdf';
 
 export default function Navbar() {
   const [theme, setTheme] = useState("light");
@@ -40,7 +41,7 @@ export default function Navbar() {
           </a> */}
         </nav>
         <a
-          href="#contact"
+          href={resume} download={"AdityaSinha.pdf"} target="_blank"
           className="inline-flex items-center bg-skin-base text-skin-base dark:bg-skin-inverted dark:text-skin-inverted border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Resume
           <ArrowCircleDownIcon className="w-4 h-4 ml-1" />

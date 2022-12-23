@@ -2,9 +2,9 @@ import React from "react";
 import { SocialInfos } from "../data";
 export const SocialIcon = (props) => {
     return (
-        <a className="text-sm text-skin-inverted hover:text-skin-base dark:text-skin-base transition dark:hover:text-skin-inverted" href={props.link} target={"_blank"} referrerPolicy="no-referrer" rel="noopener noreferrer">
+        <a className="text-sm text-skin-inverted hover:text-skin-base dark:text-skin-base transition dark:hover:text-gray-400" href={props.link} target={"_blank"} referrerPolicy="no-referrer" rel="noopener noreferrer">
             <span className="sr-only">{props.site}</span>
-            <svg className="fill-current text-skin-inverted hover:text-skin-base dark:text-skin-base dark:hover:text-skin-inverted h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox={props.viewBox}>
+            <svg className="fill-current text-skin-inverted hover:text-skin-base dark:text-skin-base dark:hover:text-gray-400 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox={props.viewBox}>
             <path d={props.svg}/>
             </svg>
         </a>
