@@ -26,14 +26,14 @@ export default function Navbar() {
             <div className="w-10 h-10 rounded-full avatar"></div>
             <div className="font-sans dark:text-skin-muted text-skin-inverted md:block hidden">Aditya Sinha</div>
           </a>
-          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-lg justify-center">
-            <a href="#about" className="mr-5 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center md:text-lg text-base justify-center">
+            <a href="#about" className="md:mr-5 mr-2 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
               about
             </a>
-            <a href="#experience" className="mr-5 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
+            <a href="#experience" className="md:mr-5 mr-2 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
               experience
             </a>
-            <a href="#skills" className="mr-5 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
+            <a href="#skills" className="md:mr-5 dark:text-skin-muted text-skin-inverted hover:text-skin-muted">
               skills
             </a>
             {/* <a href="#testimonials" className="mr-5 hover:text-skin-muted">
@@ -44,7 +44,7 @@ export default function Navbar() {
         <div className="flex flex-row item-center justify-between">
           <a
               href={resume} download={"AdityaSinha.pdf"} target="_blank"
-              className="inline-flex items-center bg-skin-base text-skin-base dark:bg-skin-inverted dark:text-skin-inverted border-0 px-3 focus:outline-none hover:bg-gray-700 dark:hover:bg-skin-base_light rounded-2xl md:mr-2 text-base">
+              className="inline-flex items-center bg-skin-base text-skin-base dark:bg-skin-inverted dark:text-skin-inverted border-0 px-3 focus:outline-none hover:bg-gray-700 dark:hover:bg-skin-base_light rounded-2xl md:mr-2 md:text-base text-sm">
               resume
               <ArrowCircleDownIcon className="w-4 h-4 ml-1" />
             </a>
