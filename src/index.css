@@ -10,5 +10,8 @@
         --color-text-muted: theme(textColor.white);
         --color-bg-base: theme(backgroundColor.gray.800);
         --color-bg-inverted: theme(backgroundColor.gray.500);
+        --color-text-inverted-light: theme(textColor.gray.400);
+        --color-text-base-dark: theme(textColor.gray.600);
+        --color-bg-base-light: theme(backgroundColor.gray.600);
     }
 }

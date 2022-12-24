@@ -2,7 +2,7 @@ import { TerminalIcon } from "@heroicons/react/solid";
 import React from "react";
 const CompanyCard = (props) => {
     return (
-        <div className={"h-full bg-skin-base dark:bg-skin-inverted  p-8 rounded block"}>
+        <div className={"h-full bg-skin-base dark:bg-skin-inverted  p-8 rounded-2xl block"}>
             <TerminalIcon className="block w-8 text-skin-base dark:text-skin-inverted  mb-4" />
             <p className="leading-relaxed mb-6"></p>
             <div className="inline-flex items-center">
